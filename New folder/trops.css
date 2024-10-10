@@ -1,0 +1,55 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center  ;
+            background-image: url(Art2.jpg);
+        }
+
+        
+        .login-container {
+            background: white;
+            padding:3%;
+            border-radius: 8px;
+            box-shadow: 
+                0 0 10px cyan,
+                0 0 20px cyan,
+                0 0 40px cyan,
+                0 0 80px cyan;
+            
+        }
+        h2 {
+            color: #35424a;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #270101;
+            border-radius: 4px;
+        }
+        button {
+            background: #35424a;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background: #455a64;
+        }
+        .error {
+            color: red;
+            display: none;
+        }
+
+        img {
+        position: fixed ;
+        }
